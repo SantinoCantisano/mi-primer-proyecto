@@ -4,7 +4,7 @@
 
    ## Mi objetivo
 
-   Quiero organizar mis trabajos de Big Data.
+   Quiero mejorar mis trabajos de Big Data.
 
    ## Mi primer avance
 
