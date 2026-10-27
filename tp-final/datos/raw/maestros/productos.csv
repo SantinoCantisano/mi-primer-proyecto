@@ -1,0 +1,17 @@
+sku,nombre,id_categoria,categoria,iso_moneda
+SUB-BAS-01,Suscripcion Basica Mensual,1,Suscripciones,ARS
+SUB-PRO-01,Suscripcion Pro Mensual,1,Suscripciones,ARS
+SUB-ENT-01,Suscripcion Enterprise Mensual,1,Suscripciones,ARS
+CUR-SQL-01,Curso SQL Avanzado,2,Cursos,ARS
+CUR-PY-01,Curso Python Data Science,2,Cursos,ARS
+CUR-DW-01,Curso Data Warehouse,2,Cursos,ARS
+SRV-API-01,API Calls Pack 10k,3,Servicios digitales,ARS
+SRV-API-02,API Calls Pack 100k,3,Servicios digitales,ARS
+SRV-STG-01,Storage 100GB,3,Servicios digitales,ARS
+SOF-LIC-01,Licencia Software Anual,4,Software,ARS
+SOF-LIC-02,Licencia Software Perpetua,4,Software,ARS
+CON-VID-01,Videos Premium Mes,5,Contenido premium,ARS
+CON-VID-02,Videos Premium Anio,5,Contenido premium,ARS
+CON-ART-01,Articulos Premium,5,Contenido premium,ARS
+CNS-1H-01,Hora Consultoria,6,Consultoria,ARS
+CNS-4H-01,Pack 4h Consultoria,6,Consultoria,ARS

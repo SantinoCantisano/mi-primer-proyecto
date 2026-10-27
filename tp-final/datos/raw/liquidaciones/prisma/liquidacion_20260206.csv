@@ -1,0 +1,3 @@
+tipo_registro;id_liquidacion;nro_lote;fecha_liquidacion;id_evento;tipo_mov;importe_liquidado;arancel;retenciones;contracargos
+D;802694;LOTE-PR-20260206-01;06/02/2026;205514;CTC;-95.803,64;1.429,91;476,64;95.327,00
+T;;;06/02/2026;;;-95.803,64;;;

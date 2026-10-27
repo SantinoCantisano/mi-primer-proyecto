@@ -1,0 +1,2 @@
+id,date_created,operation_id,external_reference,event_type,payment_method_id,currency_id,gross_amount,net_amount,fee_amount,tax_amount,chargeback_id,installments
+202715,2026-02-05T12:53:33.000Z,501372,REF-1-101414,chargeback,debvisa,ARS,-94718.00,-94718.00,1420.77,0.00,700043,1

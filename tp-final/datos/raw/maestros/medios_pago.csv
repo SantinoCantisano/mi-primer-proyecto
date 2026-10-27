@@ -1,0 +1,10 @@
+id_medio,nombre,marca,id_tipo,tipo_medio,id_comercio,razon_social,cuit
+1,Visa Credito,Visa,1,Tarjeta credito,1,Digital Services SA,30712345678
+2,Mastercard Credito,Mastercard,1,Tarjeta credito,1,Digital Services SA,30712345678
+3,Amex Credito,Amex,1,Tarjeta credito,1,Digital Services SA,30712345678
+4,Visa Debito,Visa,2,Tarjeta debito,1,Digital Services SA,30712345678
+5,Mastercard Debito,Mastercard,2,Tarjeta debito,1,Digital Services SA,30712345678
+6,MercadoPago Wallet,MP,3,Wallet,1,Digital Services SA,30712345678
+7,Modo,Modo,3,Wallet,1,Digital Services SA,30712345678
+8,Transferencia CBU,CVU,4,Transferencia,1,Digital Services SA,30712345678
+9,QR Interoperable,QR,5,QR,1,Digital Services SA,30712345678

@@ -1,0 +1,5 @@
+id_canal,codigo,tipo_canal
+1,web,Web
+2,mobile,Mobile
+3,pos,POS
+4,api,API

@@ -1,0 +1,3 @@
+id_psp,nombre,codigo,pais_op,plazo_liquidacion_dias,cuenta_bancaria
+1,Mercado Pago,mercadopago,AR,2,CTA-MP-001
+2,Prisma,prisma,AR,1,CTA-PRISMA-001

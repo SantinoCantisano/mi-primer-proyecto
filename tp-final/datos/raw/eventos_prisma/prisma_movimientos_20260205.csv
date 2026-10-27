@@ -1,0 +1,2 @@
+id_evento;fecha_mov;nro_operacion;ref_comercio;tipo_mov;medio;moneda;importe_bruto;importe_neto;arancel;iva_arancel;id_contracargo
+205514;05/02/2026;502786;REF-2-102871;CTC;VISA CREDITO;ARS;-95.327,00;-95.327,00;1.429,91;0,00;700087

@@ -1,0 +1,5 @@
+id,date_created,operation_id,external_reference,event_type,payment_method_id,currency_id,gross_amount,net_amount,fee_amount,tax_amount,chargeback_id,installments
+201644,2026-02-03T15:03:45.000Z,500831,REF-1-100856,refund,debvisa,ARS,-18272.00,-16505.48,-1459.93,-306.59,,1
+202002,2026-02-03T21:39:37.000Z,501012,REF-1-101042,refund,debvisa,ARS,-43754.00,-39523.91,-3495.94,-734.15,,1
+202358,2026-02-03T15:51:55.000Z,501192,REF-1-101228,refund,debvisa,ARS,-69236.00,-62542.33,-5531.96,-1161.71,,1
+202907,2026-02-03T22:15:54.000Z,501469,REF-1-101514,chargeback,modo,ARS,-8918.00,-8918.00,133.77,0.00,700046,1

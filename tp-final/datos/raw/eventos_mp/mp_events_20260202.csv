@@ -1,0 +1,5 @@
+id,date_created,operation_id,external_reference,event_type,payment_method_id,currency_id,gross_amount,net_amount,fee_amount,tax_amount,chargeback_id,installments
+200027,2026-02-02T18:32:33.000Z,500014,REF-1-100014,chargeback,modo,ARS,-2418.00,-2418.00,36.27,0.00,700001,1
+204716,2026-02-02T18:39:48.000Z,502383,REF-1-102456,refund,modo,ARS,-38472.00,-34752.57,-3073.91,-645.52,,1
+205074,2026-02-02T11:07:36.000Z,502564,REF-1-102642,refund,modo,ARS,-63954.00,-57771.00,-5109.92,-1073.08,,1
+205430,2026-02-02T20:50:13.000Z,502744,REF-1-102828,refund,modo,ARS,-89436.00,-80789.41,-7145.94,-1500.65,,1

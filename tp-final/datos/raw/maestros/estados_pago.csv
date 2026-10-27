@@ -1,0 +1,6 @@
+id_estado,codigo,estado_pago
+1,approved,Aprobado
+2,rejected,Rechazado
+3,pending,Pendiente
+4,refunded,Devuelto
+5,charged_back,Contracargo

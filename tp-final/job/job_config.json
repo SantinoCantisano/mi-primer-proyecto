@@ -1,0 +1,52 @@
+{
+  "name": "tp-final-conciliacion-medallion",
+  "description": "TP Final Big Data y MLOps: arquitectura medallion para la conciliación de pagos digitales.",
+  "max_concurrent_runs": 1,
+  "parameters": [
+    { "name": "catalogo", "default": "workspace" },
+    { "name": "schema", "default": "tp_final_conciliacion" },
+    { "name": "hasta_fecha", "default": "2026-01-15" }
+  ],
+  "tasks": [
+    {
+      "task_key": "publicar_archivos",
+      "notebook_task": {
+        "notebook_path": "/Workspace/Users/<usuario>/mi-primer-proyecto/tp-final/notebooks/00_publicar_archivos",
+        "source": "WORKSPACE"
+      }
+    },
+    {
+      "task_key": "ingesta_bronze",
+      "depends_on": [{ "task_key": "publicar_archivos" }],
+      "notebook_task": {
+        "notebook_path": "/Workspace/Users/<usuario>/mi-primer-proyecto/tp-final/notebooks/01_ingesta_bronze",
+        "source": "WORKSPACE"
+      }
+    },
+    {
+      "task_key": "build_silver",
+      "depends_on": [{ "task_key": "ingesta_bronze" }],
+      "notebook_task": {
+        "notebook_path": "/Workspace/Users/<usuario>/mi-primer-proyecto/tp-final/notebooks/02_build_silver",
+        "source": "WORKSPACE"
+      }
+    },
+    {
+      "task_key": "build_gold",
+      "depends_on": [{ "task_key": "build_silver" }],
+      "notebook_task": {
+        "notebook_path": "/Workspace/Users/<usuario>/mi-primer-proyecto/tp-final/notebooks/03_build_gold",
+        "source": "WORKSPACE"
+      }
+    },
+    {
+      "task_key": "validate_pipeline",
+      "depends_on": [{ "task_key": "build_gold" }],
+      "notebook_task": {
+        "notebook_path": "/Workspace/Users/<usuario>/mi-primer-proyecto/tp-final/notebooks/04_validate_pipeline",
+        "source": "WORKSPACE",
+        "base_parameters": { "job_run_id": "{{job.run_id}}" }
+      }
+    }
+  ]
+}

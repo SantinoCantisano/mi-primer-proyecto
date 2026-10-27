@@ -1,0 +1,19 @@
+id_psp,codigo_psp,id_medio
+1,visa,1
+1,master,2
+1,amex,3
+1,debvisa,4
+1,debmaster,5
+1,account_money,6
+1,modo,7
+1,bank_transfer,8
+1,qr,9
+2,VISA CREDITO,1
+2,MASTERCARD CREDITO,2
+2,AMEX,3
+2,VISA DEBITO,4
+2,MASTERCARD DEBITO,5
+2,BILLETERA MP,6
+2,MODO,7
+2,TRANSFERENCIA,8
+2,QR INTEROPERABLE,9

@@ -1,0 +1,5 @@
+cod_evento,tipo_evento,codigo_mp,codigo_prisma
+AUTH,Autorizacion,authorization,AUT
+CAPTURE,Captura,capture,CAP
+REFUND,Devolucion,refund,DEV
+CHBK,Contracargo,chargeback,CTC

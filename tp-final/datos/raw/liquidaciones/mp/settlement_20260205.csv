@@ -1,0 +1,6 @@
+record_type,settlement_id,batch_id,settlement_date,source_event_id,transaction_type,settled_amount,fee_amount,withholding_amount,chargeback_amount
+D,800803,LOTE-MP-20260205-01,2026-02-05,201644,refund,-16414.12,-1459.93,91.36,0.00
+D,800978,LOTE-MP-20260205-01,2026-02-05,202002,refund,-39305.14,-3495.94,218.77,0.00
+D,801152,LOTE-MP-20260205-01,2026-02-05,202358,refund,-62196.15,-5531.96,346.18,0.00
+D,801420,LOTE-MP-20260205-02,2026-02-05,202907,chargeback,-8962.59,133.77,44.59,8918.00
+T,,,2026-02-05,,,-126878.00,,,
